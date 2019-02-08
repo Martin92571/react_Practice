@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import appclass from './App.module.css';
-import Person from './Person/Person';
-
+import Person from '../Components/Persons/Person/Person';
+import ErroB from '../Components/ErrorB/ErrorB';
 
 class App extends Component {
   state ={
@@ -60,8 +60,8 @@ class App extends Component {
       persons=(
         <div>
           {this.state.persons.map((person,key)=>{
-           return <Person key={person.id} name={person.name} age={person.age} changed={(event)=>this.nameChangedHandler(event,person.id)} click={()=>this.deletePersonHandler(key)}
-         ></Person>;
+           return <ErroB key={person.id}><Person  name={person.name} age={person.age} changed={(event)=>this.nameChangedHandler(event,person.id)} click={()=>this.deletePersonHandler(key)}
+         ></Person></ErroB>;
           })}
         
       </div>        
