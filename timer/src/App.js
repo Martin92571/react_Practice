@@ -1,25 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import SGT from './studentGradeTable/StudetnGradeTable';
 import './App.css';
 
 class App extends Component {
+  state={
+    table:[
+      {name:"bill",course:"intro to Syce",grade:10},
+      {name:"john",course:"money skills",grade:20},
+      {name:"james",course:"im getting fat skills",grade:55}
+    ]
+    
+  
+}
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <SGT tables={this.state.table}/>
       </div>
     );
   }

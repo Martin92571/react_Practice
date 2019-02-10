@@ -1,0 +1,15 @@
+.inline{
+    display: inline-block;
+}
+.width{
+    width:32%;
+}
+
+.padding{
+    padding:1% 0%;
+
+}
+.color{
+    background-color: rgb(240,240,240);
+    box-shadow: 1px 1px 20px rgb(100,100,100);
+}
