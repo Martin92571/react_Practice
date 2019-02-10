@@ -1,6 +1,9 @@
 import React from 'react';
 import Person from './Person/Person';
-const People=(props)=>props.persons.map((person,key)=>{
+const People=(props)=>{
+    console.log('[Person.js] rendering ...');
+    return props.persons.map((person,key)=>{
+    
     return(
        
        <Person key={person.id} name={person.name} age={person.age} 
@@ -9,5 +12,5 @@ const People=(props)=>props.persons.map((person,key)=>{
           ></Person>
           
            )
-   })
+   })};
    export default People;

@@ -4,13 +4,28 @@ import Person from '../Components/Persons/Persons';
 import Cock from '../Components/Cockpit/Cockpit';
 
 class App extends Component {
-  state ={
-    persons:[
-      {id:"12315dc",name:'martin',age:26},
-      {id:"fdsf15dcd",name:'max',age:24},
-      {id:"dfds5dcdd",name:'marvin',age:56}
-    ]
-  }
+  constructor(props){
+    super(props);
+
+}
+state ={
+  persons:[
+    {id:"12315dc",name:'martin',age:26},
+    {id:"fdsf15dcd",name:'max',age:24},
+    {id:"dfds5dcdd",name:'marvin',age:56}
+  ]
+}
+static getDerivedStateFromProps(props, state){
+  console.log('[App.js] Get deirevted state from props',props);
+  return state;
+}
+componentDidMount(){
+  console.log('[app.js] componet did mount');
+}
+componentWillMount(){
+  console.log('[app.js] componet Will mount');
+}
+
   switchNameHandler=(newName)=>{
     console.log('was Clicked');
     this.setState({
@@ -49,7 +64,7 @@ class App extends Component {
     this.setState({persons});
   }
   render() {
-   
+   console.log('[app.js] render');
     let persons=null;
     if(this.state.showPerson){
       persons=

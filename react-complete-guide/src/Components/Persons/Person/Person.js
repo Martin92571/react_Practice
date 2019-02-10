@@ -2,7 +2,7 @@ import React from 'react';
 import Radium from 'radium';
 import './Person.css';
 const person=(props)=>{
-    console.log(props);
+ console.log('[Person.js] rendering ...');
     
     
     return (
