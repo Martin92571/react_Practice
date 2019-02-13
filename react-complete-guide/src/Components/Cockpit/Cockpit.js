@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import stuff from '../Cockpit/Cockpit.module.css';
 
 const cockpit=(props)=>{
+  // useEffect(()=>{
+  //       console.log('[Cockpit.js] useEffect');
+  // });
+  console.log(useState(4));
+  
     const style={
         backgroundColor:'white',
         font:'25px',

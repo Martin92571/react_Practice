@@ -22,9 +22,7 @@ static getDerivedStateFromProps(props, state){
 componentDidMount(){
   console.log('[app.js] componet did mount');
 }
-componentWillMount(){
-  console.log('[app.js] componet Will mount');
-}
+
 
   switchNameHandler=(newName)=>{
     console.log('was Clicked');
