@@ -5,6 +5,7 @@ import axios from 'axios';
 class MovieContainer extends Component{
     constructor(props){
         super(props);
+        
         this.state={
             movies:[]
         }
@@ -21,9 +22,10 @@ class MovieContainer extends Component{
        
     }
     render(){
-        console.log(this.state);
+      
+        
         const movieList=this.state.movies.map((movieInfo,index)=>{
-            return <Movie info={movieInfo} key={index}/>
+            return <Movie show={this.props.show} info={movieInfo} key={index}/>
         });
         return(
             <div>
