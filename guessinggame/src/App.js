@@ -1,25 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import InputDiv from './InputDiv';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css'
 
 class App extends Component {
+  state={
+    guess:Math.floor((Math.random() * 10000) + 1),
+    inputNumber:''
+  }
+  inputValue=(event)=>{
+    console.log(event);
+  this.state({
+      inputNumber:event.target.value
+  })
+  }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+       <h1>Guess The Number Between 1 - 10,000</h1>
+       <InputDiv change={()=>this.state.inputValue} number={this.state.inputNumber}/>
       </div>
     );
   }
