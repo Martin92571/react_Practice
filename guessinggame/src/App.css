@@ -23,6 +23,26 @@
   color: #61dafb;
 }
 
+.glow{
+  background-color:aliceblue;
+  width: 40%;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 1px 2px 20px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.ghigh{
+  background-color:firebrick;
+  width: 40%;
+  margin: 10px auto;
+  border-radius: 5px;
+  box-shadow: 1px 2px 20px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -8,9 +8,9 @@ const InputDiv=(props)=>{
     }
     return(
         <div>
-        <input onChange={()=>props.change()}style={style} className="form-control" type="number"></input>
-        <button className="btn btn-danger">Reset Game</button>
-        <button className="btn btn-success">Reset Game</button>
+        <input onChange={(e)=>props.change(e)}style={style} className="form-control" value={props.number} type="number"></input>
+        <button onClick={(e)=>props.delete()}className="btn btn-danger">Reset Game</button>
+        <button onClick={(e)=>props.check()}className="btn btn-success">Guess</button>
         </div>
     )
 }
