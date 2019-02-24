@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -33,10 +34,12 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color:#515151;
+  cursor: pointer;
   
 }
 .headerNav ul li:hover{
   color:#d42551;
+  cursor: pointer;
 }
 .MainPgContentLeft{
   display: inline-block;
@@ -50,7 +53,7 @@
 }
 .macaronListDivContainer{
   width:1000px;
-  margin:0 auto;
+  margin:40px auto;
 }
 .macaronListDiv{
   width:126px;
@@ -80,4 +83,22 @@ margin-top:12px
 .macroneCookie2:first-of-type{
   background-color:#824603;
   color:#fff;
+}
+.footer{
+  background-color:#df5277;
+  width:1000px;
+  height:80px;
+  margin:0 auto;
+}
+.footerCol{    display: inline-block;
+width: 32%;
+vertical-align: top;
+color:#fff;
+padding-top:10px;
+}
+.footerCol img{
+  margin:0px 10px;
+}
+.footerPTag{
+  margin:10px;
 }
