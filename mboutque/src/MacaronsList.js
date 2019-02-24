@@ -20,13 +20,13 @@ const MacaronList=(props)=>{
             <div className="macaronListInnerDiv">
               Monday
               <p>15:00-16:00</p>
-              <div class="macroneCookie1">
+              <div className="macroneCookie1">
                 <div>Choclate</div>
-                <img className="macaroneCookieImage" src={Chocolate}/>
+                <img className="macaroneCookieImage" src={Chocolate} alt="macaroneImage"/>
               </div>
-              <div class="macroneCookie2">
+              <div className="macroneCookie2">
                 <div>Coconut</div>
-                <img className="macaroneCookieImage" src={Coconut}/> 
+                <img className="macaroneCookieImage" src={Coconut} alt="macaroneImage"/> 
               </div>
             </div>
           </div>
@@ -34,13 +34,13 @@ const MacaronList=(props)=>{
             <div className="macaronListInnerDiv">
               Tuesday
               <p>14:00-15:00</p>
-              <div class="macroneCookie1">
+              <div className="macroneCookie1">
                 <div>Violet Cassis</div>
-                <img className="macaroneCookieImage" src={Violet}/>
+                <img className="macaroneCookieImage" src={Violet} alt="macaroneImage"/>
               </div>
-              <div class="macroneCookie2">
+              <div className="macroneCookie2">
                  <div>Green Tea</div>
-                 <img className="macaroneCookieImage" src={Green}/>
+                 <img className="macaroneCookieImage" src={Green} alt="macaroneImage"/>
               </div>
             </div>
           </div>
@@ -48,13 +48,13 @@ const MacaronList=(props)=>{
            <div className="macaronListInnerDiv">
               Wensday
               <p>09:00-10:00</p>
-              <div class="macroneCookie1">
+              <div className="macroneCookie1">
                 <div>Passion Fruit</div>
-                <img className="macaroneCookieImage" src={Passion}/>
+                <img className="macaroneCookieImage" src={Passion} alt="macaroneImage"/>
               </div>
-              <div class="macroneCookie2">
+              <div className="macroneCookie2">
                <div>Vanilla</div>
-               <img className="macaroneCookieImage" src={Vanilla}/>
+               <img className="macaroneCookieImage" src={Vanilla} alt="macaroneImage"/>
               </div>
            </div>
           </div>
@@ -62,13 +62,13 @@ const MacaronList=(props)=>{
            <div className="macaronListInnerDiv">
               Thursday
               <p>18:00-19:00</p>
-              <div class="macroneCookie1">
+              <div className="macroneCookie1">
                 <div>Coffee</div>
-                <img className="macaroneCookieImage" src={Coffee}/>
+                <img className="macaroneCookieImage" src={Coffee} alt="macaroneImage"/>
               </div>
-              <div class="macroneCookie2">
+              <div className="macroneCookie2">
                 <div>Pistachio</div>
-                <img className="macaroneCookieImage" src={Pistachio}/>
+                <img className="macaroneCookieImage" src={Pistachio} alt="macaroneImage"/>
               </div>
            </div>
           </div>
@@ -76,13 +76,13 @@ const MacaronList=(props)=>{
             <div className="macaronListInnerDiv">
               Friday
               <p>11:00-12:00</p>
-              <div class="macroneCookie1">
+              <div className="macroneCookie1">
                  <div>RaspBerry</div>
-                 <img className="macaroneCookieImage" src={RaspBerry}/>
+                 <img className="macaroneCookieImage" src={RaspBerry} alt="macaroneImage"/>
               </div>
-              <div class="macroneCookie2">
+              <div className="macroneCookie2">
                  <div>Lemon</div>
-                 <img className="macaroneCookieImage" src={Lemon}/>
+                 <img className="macaroneCookieImage" src={Lemon} alt="macaroneImage"/>
               </div>
             </div>
           </div>
@@ -90,13 +90,13 @@ const MacaronList=(props)=>{
             <div className="macaronListInnerDiv">
               Saturday
               <p>13:00-14:00</p>
-              <div class="macroneCookie1">
+              <div className="macroneCookie1">
                 <div>Rose</div>
-                <img className="macaroneCookieImage" src={Rose}/>
+                <img className="macaroneCookieImage" src={Rose} alt="macaroneImage"/>
               </div>
-              <div class="macroneCookie2">
+              <div className="macroneCookie2">
                 <div>Tiffany Blue</div>
-                <img className="macaroneCookieImage" src={Tiffany}/>
+                <img className="macaroneCookieImage" src={Tiffany} alt="macaroneImage"/>
               </div>
             </div>
           </div>
@@ -104,13 +104,13 @@ const MacaronList=(props)=>{
             <div className="macaronListInnerDiv">
               Sunday
               <p>10:00-11:00</p>
-              <div class="macroneCookie1">
+              <div className="macroneCookie1">
                  <div>Carramel</div>
-                <img className="macaroneCookieImage" src={Caramel}/>
+                <img className="macaroneCookieImage" src={Caramel} alt="macaroneImage"/>
               </div>
-              <div class="macroneCookie2">
+              <div className="macroneCookie2">
                 <div>Almond</div>
-                <img className="macaroneCookieImage" src={Almond}/>
+                <img className="macaroneCookieImage" src={Almond} alt="macaroneImage"/>
               </div>
             </div>
           </div>

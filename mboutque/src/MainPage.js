@@ -9,7 +9,7 @@ const Mainpage=(props)=>{
             <HeroImage image={Hero}/>
             <div className="MainPageContent">
             <div className="MainPgContentLeft">
-            <img src={MainPgContentImage}/>
+            <img src={MainPgContentImage} alt="mainContentImage"/>
             </div>
             <div className="MainPgContentRight">
             <h5>Welcome To Mboutiq</h5>
