@@ -59,3 +59,25 @@
   display:inline-block;
   margin:8px;
 }
+.macaronListInnerDiv{
+padding:6px;
+    text-align: left;
+}
+.macroneCookie1,.macroneCookie2{
+font-size: 14px;
+margin-top:12px
+}
+.macroneCookie1 div,.macroneCookie2 div{
+  display:inline-block;
+  width:75%;
+  text-align: left;
+  
+}
+.macaroneCookieImage{
+  vertical-align: bottom;
+}
+
+.macroneCookie2:first-of-type{
+  background-color:#824603;
+  color:#fff;
+}
